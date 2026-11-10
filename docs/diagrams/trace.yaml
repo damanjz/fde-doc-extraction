@@ -1,0 +1,24 @@
+type: trace
+kicker: FDE Portfolio · 03
+title: One invoice with a wrong total, traced to the review screen
+lanes:
+  - {id: person, label: Reviewer}
+  - {id: api, label: "API (pipeline)"}
+  - {id: reader, label: "Reader (text, OCR)"}
+  - {id: llm, label: Local LLM, hot: true}
+  - {id: checks, label: "Checks (in code)"}
+  - {id: db, label: SQLite}
+steps:
+  - {from: person, to: api, text: "POST /extract with inv_017.pdf (Deccan Kraft & Labels)"}
+  - {from: api, to: reader, text: "read_document: pypdf layout text; a scan would go to rapidocr"}
+  - {from: reader, to: api, text: "Text layer found, no OCR needed"}
+  - {from: api, to: llm, text: "extract: one call, JSON schema, think off"}
+  - {from: llm, to: api, text: "subtotal 103,840.00, GST 18,691.20, total 125,183.20"}
+  - {from: api, to: checks, text: "check_total, check_gstin, check_lines and the rest"}
+  - {from: checks, to: api, text: "subtotal + GST = 122,531.20, total is 125,183.20: total_mismatch"}
+  - {from: api, to: db, text: "Document, raw reply and extraction stored; status extracted", tone: muted}
+  - {from: api, to: person, text: "Review page: total, subtotal and gst_amount marked low", tone: accent}
+  - {from: person, to: api, text: "POST /review/{id}: a decision on each flagged field"}
+  - {from: api, to: db, text: "Decisions saved; status reviewed", tone: muted}
+  - {from: api, to: person, text: "Saved. The document now appears in /export.csv", tone: accent}
+note: "Lanes are components; arrows are calls in order. Grey arrows are database writes."

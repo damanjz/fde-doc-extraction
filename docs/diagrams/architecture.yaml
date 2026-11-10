@@ -1,0 +1,69 @@
+type: flow
+kicker: FDE Portfolio · 03
+title: How an invoice becomes validated JSON and a short review list
+columns:
+  - id: upload
+    tag: Input
+    title: Upload
+    points:
+      - Supplier invoice or courier delivery note
+      - PDF, PNG or JPEG, checked by magic bytes
+      - 10 MB, 10 pages, image size caps
+  - id: read
+    tag: Reader
+    title: Text layer or OCR
+    points:
+      - pypdf in layout mode first
+      - rapidocr only for pages with no text
+      - OCR keeps line positions and per-segment confidence
+  - id: core
+    core:
+      tag: Extract and check
+      title: fusion27b:iq3 via Ollama
+      subtitle: Local, one RTX 5080, no cloud call
+      children:
+        - id: extract
+          title: Extract
+          points:
+            - One call with a JSON schema
+            - One repair round for invalid JSON
+            - Text is treated as untrusted data
+        - id: validate
+          title: Validate in code
+          style: dark
+          points:
+            - GSTIN mod-36 checksum, dates, line sums
+            - Subtotal + GST = total
+            - Duplicate invoice number per supplier
+  - stack:
+      - id: confidence
+        tag: Signal
+        title: Confidence per field
+        points:
+          - Low if a rule flagged it
+          - Low if the value is not in the source text
+          - Low if OCR confidence is under 0.70
+      - id: status
+        tag: Routing
+        title: Status
+        points:
+          - "No low field and no warning: auto_accepted"
+          - Anything else waits for a person
+  - id: review
+    tag: Person
+    title: Review and export
+    points:
+      - Flagged fields beside the document image
+      - Accept or correct each one
+      - CSV export, safe against formula injection
+band:
+  title: SQLite
+  text: documents, raw model replies, extractions, reviewer decisions
+  right: "0 silent errors in 1,130 fields"
+edges:
+  - {from: upload, to: read}
+  - {from: read, to: core}
+  - {from: core, to: confidence}
+  - {from: confidence, to: review}
+  - {from: confidence, to: status}
+  - {from: core, to: band, dashed: true}
