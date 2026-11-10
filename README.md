@@ -237,4 +237,4 @@ python scripts/ocr_accuracy.py
 Built with Claude Code as a pair programmer. Scope, design decisions and verification are mine. Larkfield Coffee Co. is a fictional customer; all data is synthetic. MIT licensed (see `LICENSE`).
 
 <!-- signature -->
-<p align="center"><img src="docs/media/signature.gif" width="260" alt="A cat looking around"><br><sub>Signature GIF: <a href="https://commons.wikimedia.org/wiki/File:Cat_funny_gif.gif">A cat looking around</a> by Amrutha Unni, CC BY-SA 4.0, via Wikimedia Commons.</sub></p>
+<p align="center"><img src="docs/media/signature.gif" width="300" alt="A kitten sprinting past the camera"><br><sub>Signature GIF: <a href="https://commons.wikimedia.org/wiki/File:Stray-kitten.gif">A kitten sprinting past the camera</a> by 些細な日常, CC BY-SA 4.0, via Wikimedia Commons.</sub></p>
