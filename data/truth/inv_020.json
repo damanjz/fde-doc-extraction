@@ -1,0 +1,42 @@
+{
+  "id": "inv_020",
+  "type": "invoice",
+  "layout": 5,
+  "source": "pdf",
+  "file": "inv_020.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Greenline Freight Services",
+    "supplier_gstin": "36AAIFG7761E1Z9",
+    "invoice_number": "INV202600770",
+    "invoice_date": "2026-08-16",
+    "due_date": "2026-08-31",
+    "line_items": [
+      {
+        "description": "Freight, part load, Coimbatore to Hyderabad",
+        "qty": 3.0,
+        "unit_price": 17272.0,
+        "amount": 51816.0
+      },
+      {
+        "description": "Loading and unloading charges",
+        "qty": 1.0,
+        "unit_price": 4788.25,
+        "amount": 4788.25
+      },
+      {
+        "description": "Freight, full truck load, Chikmagalur to Hyderabad",
+        "qty": 1.0,
+        "unit_price": 70532.0,
+        "amount": 70532.0
+      }
+    ],
+    "subtotal": 127136.25,
+    "gst_rate": 18.0,
+    "gst_amount": 22884.52,
+    "total": 150020.77,
+    "currency": "INR"
+  }
+}

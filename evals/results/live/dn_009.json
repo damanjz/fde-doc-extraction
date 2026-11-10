@@ -1,0 +1,47 @@
+{
+ "id": "dn_009",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "Swiftline Express Couriers Pvt Ltd",
+  "courier_gstin": "36AAGCS8827N1Z3",
+  "awb_number": "SLX504466383",
+  "ship_date": "2026-08-30",
+  "delivery_date": "2026-09-01",
+  "origin": "Hyderabad",
+  "destination": "Hyderabad",
+  "consignor": "Deccan Kraft & Labels Pvt Ltd",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 12,
+  "weight_kg": 333.24,
+  "reference_number": "DKL-00648",
+  "received_by": "Farhan Ali"
+ },
+ "low": {
+  "courier_gstin": [
+   "validation:gstin_checksum"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 8,
+  "llm_ms": 6093,
+  "llm_first_ms": 6093,
+  "check_ms": 3,
+  "total_ms": 6105,
+  "prompt_tokens": 747,
+  "completion_tokens": 144
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1Z3\",\"awb_number\":\"SLX504466383\",\"ship_date\":\"2026-08-30\",\"delivery_date\":\"2026-09-01\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Deccan Kraft & Labels Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":12,\"weight_kg\":333.24,\"reference_number\":\"DKL-00648\",\"received_by\":\"Farhan Ali\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1Z3\",\"awb_number\":\"SLX504466383\",\"ship_date\":\"2026-08-30\",\"delivery_date\":\"2026-09-01\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Deccan Kraft & Labels Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":12,\"weight_kg\":333.24,\"reference_number\":\"DKL-00648\",\"received_by\":\"Farhan Ali\"}",
+   "prompt_tokens": 747,
+   "completion_tokens": 144,
+   "latency_ms": 6093,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dn_002",
+  "type": "delivery_note",
+  "layout": 2,
+  "source": "pdf",
+  "file": "dn_002.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "BlueKite Logistics India Pvt Ltd",
+    "courier_gstin": "29AAHCB5304J1ZM",
+    "awb_number": "489203144836",
+    "ship_date": "2026-08-15",
+    "delivery_date": "2026-08-17",
+    "origin": "Wayanad",
+    "destination": "Hyderabad",
+    "consignor": "Wayanad Mist Plantations LLP",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 11,
+    "weight_kg": 134.07,
+    "reference_number": "WMP/26-27/0740",
+    "received_by": "T. Naresh Kumar"
+  }
+}

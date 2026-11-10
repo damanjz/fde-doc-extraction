@@ -1,0 +1,35 @@
+{
+  "id": "dn_005",
+  "type": "delivery_note",
+  "layout": 1,
+  "source": "pdf",
+  "file": "dn_005.pdf",
+  "planted": [
+    "delivery_before_ship"
+  ],
+  "expected_flags": [
+    {
+      "field": "delivery_date",
+      "reason": "delivery_before_ship",
+      "related": [
+        "ship_date"
+      ]
+    }
+  ],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "Swiftline Express Couriers Pvt Ltd",
+    "courier_gstin": "36AAGCS8827N1ZL",
+    "awb_number": "SLX873854755",
+    "ship_date": "2026-10-28",
+    "delivery_date": "2026-10-27",
+    "origin": "Coimbatore",
+    "destination": "Hyderabad",
+    "consignor": "Blue Ridge Beans Trading Co",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 11,
+    "weight_kg": 354.38,
+    "reference_number": "INV202600699",
+    "received_by": "R. Venkatesh"
+  }
+}

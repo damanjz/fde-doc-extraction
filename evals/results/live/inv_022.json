@@ -1,0 +1,64 @@
+{
+ "id": "inv_022",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Sundaram Flexipack Industries Pvt Ltd",
+  "supplier_gstin": "33AAECS5126H1ZK",
+  "invoice_number": "SFI-00441",
+  "invoice_date": null,
+  "due_date": null,
+  "subtotal": 398238.5,
+  "gst_rate": 18.0,
+  "gst_amount": 71682.93,
+  "total": 469921.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Stand-up pouch 250 g, kraft, zip lock, valve",
+    "qty": 23901.0,
+    "unit_price": 6.0,
+    "amount": 143406.0
+   },
+   {
+    "description": "Printed laminate roll stock 300 mm",
+    "qty": 155.0,
+    "unit_price": 229.0,
+    "amount": 35495.0
+   },
+   {
+    "description": "Aluminium foil bag 1 kg, one-way valve",
+    "qty": 17547.0,
+    "unit_price": 12.5,
+    "amount": 219337.5
+   }
+  ]
+ },
+ "low": {
+  "invoice_date": [
+   "validation:missing"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 5,
+  "llm_ms": 8670,
+  "llm_first_ms": 8670,
+  "check_ms": 4,
+  "total_ms": 8680,
+  "prompt_tokens": 1164,
+  "completion_tokens": 229
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Sundaram Flexipack Industries Pvt Ltd\",\"supplier_gstin\":\"33AAECS5126H1ZK\",\"invoice_number\":\"SFI-00441\",\"invoice_date\":null,\"due_date\":null,\"line_items\":[{\"description\":\"Stand-up pouch 250 g, kraft, zip lock, valve\",\"qty\":23901,\"unit_price\":6.0,\"amount\":143406.0},{\"description\":\"Printed laminate roll stock 300 mm\",\"qty\":155.0,\"unit_price\":229.0,\"amount\":35495.0},{\"description\":\"Aluminium foil bag 1 kg, one-way valve\",\"qty\":17547,\"unit_price\":12.5,\"amount\":219337.5}],\"subtotal\":398238.5,\"gst_rate\":18,\"gst_amount\":71682.93,\"total\":469921.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Sundaram Flexipack Industries Pvt Ltd\",\"supplier_gstin\":\"33AAECS5126H1ZK\",\"invoice_number\":\"SFI-00441\",\"invoice_date\":null,\"due_date\":null,\"line_items\":[{\"description\":\"Stand-up pouch 250 g, kraft, zip lock, valve\",\"qty\":23901,\"unit_price\":6.0,\"amount\":143406.0},{\"description\":\"Printed laminate roll stock 300 mm\",\"qty\":155.0,\"unit_price\":229.0,\"amount\":35495.0},{\"description\":\"Aluminium foil bag 1 kg, one-way valve\",\"qty\":17547,\"unit_price\":12.5,\"amount\":219337.5}],\"subtotal\":398238.5,\"gst_rate\":18,\"gst_amount\":71682.93,\"total\":469921.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 1164,
+   "completion_tokens": 229,
+   "latency_ms": 8670,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "inv_005",
+  "type": "invoice",
+  "layout": 5,
+  "source": "pdf",
+  "file": "inv_005.pdf",
+  "planted": [
+    "gstin_invalid"
+  ],
+  "expected_flags": [
+    {
+      "field": "supplier_gstin",
+      "reason": "gstin_checksum",
+      "related": []
+    }
+  ],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Blue Ridge Beans Trading Co",
+    "supplier_gstin": "33AAJFB3306G1ZI",
+    "invoice_number": "INV202600674",
+    "invoice_date": "2026-08-25",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Chicory powder 25 kg sack - Lot BRB/505-A",
+        "qty": 12.0,
+        "unit_price": 2316.25,
+        "amount": 27795.0
+      },
+      {
+        "description": "Arabica Plantation B, washed green bean - Lot BRB/329-B",
+        "qty": 350.5,
+        "unit_price": 553.0,
+        "amount": 193826.5
+      },
+      {
+        "description": "Robusta Kaapi Royal, green bean - Lot BRB/652-C",
+        "qty": 523.25,
+        "unit_price": 316.25,
+        "amount": 165477.81
+      },
+      {
+        "description": "Chicory powder 25 kg sack - Lot BRB/543-D",
+        "qty": 14.0,
+        "unit_price": 2426.0,
+        "amount": 33964.0
+      }
+    ],
+    "subtotal": 421063.31,
+    "gst_rate": 5.0,
+    "gst_amount": 21053.17,
+    "total": 442116.48,
+    "currency": "INR"
+  }
+}

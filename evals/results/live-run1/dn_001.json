@@ -1,0 +1,43 @@
+{
+ "id": "dn_001",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "Swiftline Express Couriers Pvt Ltd",
+  "courier_gstin": "36AAGCS8827N1ZL",
+  "awb_number": "SLX554078241",
+  "ship_date": "2026-10-13",
+  "delivery_date": "2026-10-14",
+  "origin": "New Delhi",
+  "destination": "Hyderabad",
+  "consignor": "Bharat Brewgear Works",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 6,
+  "weight_kg": 32.87,
+  "reference_number": "BBW/389/26-27",
+  "received_by": "P. Sridhar"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 16,
+  "llm_ms": 11757,
+  "llm_first_ms": 11757,
+  "check_ms": 2,
+  "total_ms": 11776,
+  "prompt_tokens": 747,
+  "completion_tokens": 146
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1ZL\",\"awb_number\":\"SLX554078241\",\"ship_date\":\"2026-10-13\",\"delivery_date\":\"2026-10-14\",\"origin\":\"New Delhi\",\"destination\":\"Hyderabad\",\"consignor\":\"Bharat Brewgear Works\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":6,\"weight_kg\":32.87,\"reference_number\":\"BBW/389/26-27\",\"received_by\":\"P. Sridhar\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1ZL\",\"awb_number\":\"SLX554078241\",\"ship_date\":\"2026-10-13\",\"delivery_date\":\"2026-10-14\",\"origin\":\"New Delhi\",\"destination\":\"Hyderabad\",\"consignor\":\"Bharat Brewgear Works\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":6,\"weight_kg\":32.87,\"reference_number\":\"BBW/389/26-27\",\"received_by\":\"P. Sridhar\"}",
+   "prompt_tokens": 747,
+   "completion_tokens": 146,
+   "latency_ms": 11757,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

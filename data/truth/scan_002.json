@@ -1,0 +1,44 @@
+{
+  "id": "scan_002",
+  "type": "invoice",
+  "layout": 2,
+  "source": "scan",
+  "file": "scan_002.jpg",
+  "planted": [
+    "duplicate"
+  ],
+  "expected_flags": [
+    {
+      "field": "invoice_number",
+      "reason": "duplicate_invoice_number",
+      "related": []
+    }
+  ],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Sundaram Flexipack Industries Pvt Ltd",
+    "supplier_gstin": "33AAECS5126H1ZK",
+    "invoice_number": "SFI-00394",
+    "invoice_date": "2026-08-11",
+    "due_date": "2026-09-10",
+    "line_items": [
+      {
+        "description": "Aluminium foil bag 1 kg, one-way valve",
+        "qty": 9852.0,
+        "unit_price": 10.0,
+        "amount": 98520.0
+      },
+      {
+        "description": "Tin tie closure strip, kraft",
+        "qty": 36765.0,
+        "unit_price": 1.5,
+        "amount": 55147.5
+      }
+    ],
+    "subtotal": 153667.5,
+    "gst_rate": 18.0,
+    "gst_amount": 27660.15,
+    "total": 181328.0,
+    "currency": "INR"
+  }
+}

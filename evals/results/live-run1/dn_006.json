@@ -1,0 +1,43 @@
+{
+ "id": "dn_006",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "BlueKite Logistics India Pvt Ltd",
+  "courier_gstin": "29AAHCB5304J1ZM",
+  "awb_number": "878701471033",
+  "ship_date": "2026-10-21",
+  "delivery_date": "2026-10-27",
+  "origin": "Hyderabad",
+  "destination": "Hyderabad",
+  "consignor": "Hind Roastech Engineers",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 12,
+  "weight_kg": 520.63,
+  "reference_number": "HRE/538/26-27",
+  "received_by": "G. Padmavathi"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 3,
+  "llm_ms": 6224,
+  "llm_first_ms": 6224,
+  "check_ms": 2,
+  "total_ms": 6229,
+  "prompt_tokens": 731,
+  "completion_tokens": 150
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"878701471033\",\"ship_date\":\"2026-10-21\",\"delivery_date\":\"2026-10-27\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Hind Roastech Engineers\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":12,\"weight_kg\":520.63,\"reference_number\":\"HRE/538/26-27\",\"received_by\":\"G. Padmavathi\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"878701471033\",\"ship_date\":\"2026-10-21\",\"delivery_date\":\"2026-10-27\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Hind Roastech Engineers\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":12,\"weight_kg\":520.63,\"reference_number\":\"HRE/538/26-27\",\"received_by\":\"G. Padmavathi\"}",
+   "prompt_tokens": 731,
+   "completion_tokens": 150,
+   "latency_ms": 6224,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

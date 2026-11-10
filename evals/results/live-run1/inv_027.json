@@ -1,0 +1,66 @@
+{
+ "id": "inv_027",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Deccan Kraft & Labels Pvt Ltd",
+  "supplier_gstin": "36AAFCD9065R1ZT",
+  "invoice_number": "DKL-00648",
+  "invoice_date": "2026-08-29",
+  "due_date": "2026-10-13",
+  "subtotal": 171424.5,
+  "gst_rate": 18.0,
+  "gst_amount": 30856.42,
+  "total": 202281.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Bubble wrap roll 1 m x 100 m",
+    "qty": 39.0,
+    "unit_price": 875.5,
+    "amount": 34144.5
+   },
+   {
+    "description": "Kraft mailer box, 10x8x3 in",
+    "qty": 841.0,
+    "unit_price": 26.5,
+    "amount": 22286.5
+   },
+   {
+    "description": "Corrugated shipper carton 5-ply, 12x9x6 in",
+    "qty": 2495.0,
+    "unit_price": 37.5,
+    "amount": 93562.5
+   },
+   {
+    "description": "Adhesive label roll 100x50 mm, 1000 per roll",
+    "qty": 58.0,
+    "unit_price": 369.5,
+    "amount": 21431.0
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 11,
+  "llm_ms": 10306,
+  "llm_first_ms": 10306,
+  "check_ms": 4,
+  "total_ms": 10321,
+  "prompt_tokens": 1289,
+  "completion_tokens": 290
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Deccan Kraft & Labels Pvt Ltd\",\"supplier_gstin\":\"36AAFCD9065R1ZT\",\"invoice_number\":\"DKL-00648\",\"invoice_date\":\"2026-08-29\",\"due_date\":\"2026-10-13\",\"line_items\":[{\"description\":\"Bubble wrap roll 1 m x 100 m\",\"qty\":39,\"unit_price\":875.5,\"amount\":34144.5},{\"description\":\"Kraft mailer box, 10x8x3 in\",\"qty\":841,\"unit_price\":26.5,\"amount\":22286.5},{\"description\":\"Corrugated shipper carton 5-ply, 12x9x6 in\",\"qty\":2495,\"unit_price\":37.5,\"amount\":93562.5},{\"description\":\"Adhesive label roll 100x50 mm, 1000 per roll\",\"qty\":58,\"unit_price\":369.5,\"amount\":21431}],\"subtotal\":171424.5,\"gst_rate\":18,\"gst_amount\":30856.42,\"total\":202281,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Deccan Kraft & Labels Pvt Ltd\",\"supplier_gstin\":\"36AAFCD9065R1ZT\",\"invoice_number\":\"DKL-00648\",\"invoice_date\":\"2026-08-29\",\"due_date\":\"2026-10-13\",\"line_items\":[{\"description\":\"Bubble wrap roll 1 m x 100 m\",\"qty\":39,\"unit_price\":875.5,\"amount\":34144.5},{\"description\":\"Kraft mailer box, 10x8x3 in\",\"qty\":841,\"unit_price\":26.5,\"amount\":22286.5},{\"description\":\"Corrugated shipper carton 5-ply, 12x9x6 in\",\"qty\":2495,\"unit_price\":37.5,\"amount\":93562.5},{\"description\":\"Adhesive label roll 100x50 mm, 1000 per roll\",\"qty\":58,\"unit_price\":369.5,\"amount\":21431}],\"subtotal\":171424.5,\"gst_rate\":18,\"gst_amount\":30856.42,\"total\":202281,\"currency\":\"INR\"}",
+   "prompt_tokens": 1289,
+   "completion_tokens": 290,
+   "latency_ms": 10306,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "inv_014",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Coorg Grindworks & Fabricators",
+  "supplier_gstin": "29AAMFC4890P1ZN",
+  "invoice_number": "CGF/0739",
+  "invoice_date": "2026-09-21",
+  "due_date": "2026-11-20",
+  "subtotal": 188603.0,
+  "gst_rate": 18.0,
+  "gst_amount": 33948.54,
+  "total": 222551.54,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Tamper 58 mm, walnut handle",
+    "qty": 86.0,
+    "unit_price": 656.5,
+    "amount": 56459.0
+   },
+   {
+    "description": "Hand grinder 30 mm steel burr, aluminium body",
+    "qty": 31.0,
+    "unit_price": 2049.0,
+    "amount": 63519.0
+   },
+   {
+    "description": "Knock box, stainless steel, 21 cm",
+    "qty": 90.0,
+    "unit_price": 762.5,
+    "amount": 68625.0
+   }
+  ]
+ },
+ "low": {
+  "supplier_gstin": [
+   "validation:gstin_checksum"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 18,
+  "llm_ms": 8954,
+  "llm_first_ms": 8954,
+  "check_ms": 5,
+  "total_ms": 8977,
+  "prompt_tokens": 1243,
+  "completion_tokens": 234
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Coorg Grindworks & Fabricators\",\"supplier_gstin\":\"29AAMFC4890P1ZN\",\"invoice_number\":\"CGF/0739\",\"invoice_date\":\"2026-09-21\",\"due_date\":\"2026-11-20\",\"line_items\":[{\"description\":\"Tamper 58 mm, walnut handle\",\"qty\":86,\"unit_price\":656.5,\"amount\":56459.0},{\"description\":\"Hand grinder 30 mm steel burr, aluminium body\",\"qty\":31,\"unit_price\":2049.0,\"amount\":63519.0},{\"description\":\"Knock box, stainless steel, 21 cm\",\"qty\":90,\"unit_price\":762.5,\"amount\":68625.0}],\"subtotal\":188603.0,\"gst_rate\":18,\"gst_amount\":33948.54,\"total\":222551.54,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Coorg Grindworks & Fabricators\",\"supplier_gstin\":\"29AAMFC4890P1ZN\",\"invoice_number\":\"CGF/0739\",\"invoice_date\":\"2026-09-21\",\"due_date\":\"2026-11-20\",\"line_items\":[{\"description\":\"Tamper 58 mm, walnut handle\",\"qty\":86,\"unit_price\":656.5,\"amount\":56459.0},{\"description\":\"Hand grinder 30 mm steel burr, aluminium body\",\"qty\":31,\"unit_price\":2049.0,\"amount\":63519.0},{\"description\":\"Knock box, stainless steel, 21 cm\",\"qty\":90,\"unit_price\":762.5,\"amount\":68625.0}],\"subtotal\":188603.0,\"gst_rate\":18,\"gst_amount\":33948.54,\"total\":222551.54,\"currency\":\"INR\"}",
+   "prompt_tokens": 1243,
+   "completion_tokens": 234,
+   "latency_ms": 8954,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

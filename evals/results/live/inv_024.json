@@ -1,0 +1,54 @@
+{
+ "id": "inv_024",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "COORG GRINDWORKS & FABRICATORS",
+  "supplier_gstin": "29AAMFC4890P1ZH",
+  "invoice_number": "CGF/0755",
+  "invoice_date": "2026-08-25",
+  "due_date": "2026-09-24",
+  "subtotal": 183371.5,
+  "gst_rate": 18.0,
+  "gst_amount": 33006.87,
+  "total": 216378.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Tamper 58 mm, walnut handle",
+    "qty": 137.0,
+    "unit_price": 781.0,
+    "amount": 106997.0
+   },
+   {
+    "description": "Milk pitcher 600 ml, matte black",
+    "qty": 103.0,
+    "unit_price": 741.5,
+    "amount": 76374.5
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 8,
+  "llm_ms": 7709,
+  "llm_first_ms": 7709,
+  "check_ms": 5,
+  "total_ms": 7722,
+  "prompt_tokens": 1198,
+  "completion_tokens": 198
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"COORG GRINDWORKS & FABRICATORS\",\"supplier_gstin\":\"29AAMFC4890P1ZH\",\"invoice_number\":\"CGF/0755\",\"invoice_date\":\"2026-08-25\",\"due_date\":\"2026-09-24\",\"line_items\":[{\"description\":\"Tamper 58 mm, walnut handle\",\"qty\":137,\"unit_price\":781.0,\"amount\":106997.0},{\"description\":\"Milk pitcher 600 ml, matte black\",\"qty\":103,\"unit_price\":741.5,\"amount\":76374.5}],\"subtotal\":183371.5,\"gst_rate\":18,\"gst_amount\":33006.87,\"total\":216378.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"COORG GRINDWORKS & FABRICATORS\",\"supplier_gstin\":\"29AAMFC4890P1ZH\",\"invoice_number\":\"CGF/0755\",\"invoice_date\":\"2026-08-25\",\"due_date\":\"2026-09-24\",\"line_items\":[{\"description\":\"Tamper 58 mm, walnut handle\",\"qty\":137,\"unit_price\":781.0,\"amount\":106997.0},{\"description\":\"Milk pitcher 600 ml, matte black\",\"qty\":103,\"unit_price\":741.5,\"amount\":76374.5}],\"subtotal\":183371.5,\"gst_rate\":18,\"gst_amount\":33006.87,\"total\":216378.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 1198,
+   "completion_tokens": 198,
+   "latency_ms": 7709,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

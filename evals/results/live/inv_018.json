@@ -1,0 +1,54 @@
+{
+ "id": "inv_018",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Hind Roastech Engineers",
+  "supplier_gstin": "36AAGFH6318C1ZN",
+  "invoice_number": "HRE/538/26-27",
+  "invoice_date": "2026-10-18",
+  "due_date": "2026-11-02",
+  "subtotal": 33603.0,
+  "gst_rate": 18.0,
+  "gst_amount": 6048.54,
+  "total": 39651.54,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Cooling tray, stainless steel, 40 cm",
+    "qty": 4.0,
+    "unit_price": 5421.0,
+    "amount": 21684.0
+   },
+   {
+    "description": "Chaff collector assembly",
+    "qty": 1.0,
+    "unit_price": 11919.0,
+    "amount": 11919.0
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 10,
+  "llm_ms": 7497,
+  "llm_first_ms": 7497,
+  "check_ms": 4,
+  "total_ms": 7511,
+  "prompt_tokens": 1170,
+  "completion_tokens": 190
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Hind Roastech Engineers\",\"supplier_gstin\":\"36AAGFH6318C1ZN\",\"invoice_number\":\"HRE/538/26-27\",\"invoice_date\":\"2026-10-18\",\"due_date\":\"2026-11-02\",\"line_items\":[{\"description\":\"Cooling tray, stainless steel, 40 cm\",\"qty\":4,\"unit_price\":5421.0,\"amount\":21684.0},{\"description\":\"Chaff collector assembly\",\"qty\":1,\"unit_price\":11919.0,\"amount\":11919.0}],\"subtotal\":33603.0,\"gst_rate\":18,\"gst_amount\":6048.54,\"total\":39651.54,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Hind Roastech Engineers\",\"supplier_gstin\":\"36AAGFH6318C1ZN\",\"invoice_number\":\"HRE/538/26-27\",\"invoice_date\":\"2026-10-18\",\"due_date\":\"2026-11-02\",\"line_items\":[{\"description\":\"Cooling tray, stainless steel, 40 cm\",\"qty\":4,\"unit_price\":5421.0,\"amount\":21684.0},{\"description\":\"Chaff collector assembly\",\"qty\":1,\"unit_price\":11919.0,\"amount\":11919.0}],\"subtotal\":33603.0,\"gst_rate\":18,\"gst_amount\":6048.54,\"total\":39651.54,\"currency\":\"INR\"}",
+   "prompt_tokens": 1170,
+   "completion_tokens": 190,
+   "latency_ms": 7497,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

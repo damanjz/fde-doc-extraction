@@ -1,0 +1,42 @@
+{
+  "id": "inv_009",
+  "type": "invoice",
+  "layout": 4,
+  "source": "pdf",
+  "file": "inv_009.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Pearl City Kitchenware Pvt Ltd",
+    "supplier_gstin": "36AAFCP1857L1Z1",
+    "invoice_number": "PCK/0568",
+    "invoice_date": "2026-09-14",
+    "due_date": "2026-10-14",
+    "line_items": [
+      {
+        "description": "Pour-over stand, bamboo",
+        "qty": 34.0,
+        "unit_price": 499.0,
+        "amount": 16966.0
+      },
+      {
+        "description": "French press 600 ml, borosilicate",
+        "qty": 174.0,
+        "unit_price": 581.0,
+        "amount": 101094.0
+      },
+      {
+        "description": "Ceramic mug 300 ml, speckle glaze",
+        "qty": 385.0,
+        "unit_price": 307.0,
+        "amount": 118195.0
+      }
+    ],
+    "subtotal": 236255.0,
+    "gst_rate": 18.0,
+    "gst_amount": 42525.9,
+    "total": 278781.0,
+    "currency": "INR"
+  }
+}

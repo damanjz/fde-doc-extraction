@@ -1,0 +1,160 @@
+{
+ "id": "inv_001",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Kaveri Ridge Estates Pvt Ltd",
+  "supplier_gstin": "29AABCK3381M1Z4",
+  "invoice_number": "KRE/26-27/0711",
+  "invoice_date": "2026-10-29",
+  "due_date": "2026-11-13",
+  "subtotal": 4346530.88,
+  "gst_rate": 5.0,
+  "gst_amount": 217326.54,
+  "total": 4563857.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Arabica Cherry AB, natural green bean - Lot KRE/284-A",
+    "qty": 723.25,
+    "unit_price": 499.5,
+    "amount": 361263.38
+   },
+   {
+    "description": "Robusta Cherry AA, green bean - Lot KRE/644-B",
+    "qty": 1366.75,
+    "unit_price": 324.0,
+    "amount": 442827.0
+   },
+   {
+    "description": "Robusta Parchment AB, green bean - Lot KRE/460-C",
+    "qty": 916.75,
+    "unit_price": 381.0,
+    "amount": 349281.75
+   },
+   {
+    "description": "Peaberry PB Arabica, washed - Lot KRE/278-D",
+    "qty": 204.75,
+    "unit_price": 679.0,
+    "amount": 139025.25
+   },
+   {
+    "description": "Arabica Plantation A, washed green bean - Lot KRE/257-E",
+    "qty": 286.5,
+    "unit_price": 578.0,
+    "amount": 165597.0
+   },
+   {
+    "description": "Arabica Cherry AB, natural green bean - Lot KRE/174-F",
+    "qty": 463.75,
+    "unit_price": 476.0,
+    "amount": 220745.0
+   },
+   {
+    "description": "Robusta Cherry AA, green bean - Lot KRE/289-A",
+    "qty": 1043.5,
+    "unit_price": 320.0,
+    "amount": 333920.0
+   },
+   {
+    "description": "Robusta Parchment AB, green bean - Lot KRE/190-B",
+    "qty": 421.75,
+    "unit_price": 385.0,
+    "amount": 162373.75
+   },
+   {
+    "description": "Peaberry PB Arabica, washed - Lot KRE/732-C",
+    "qty": 258.5,
+    "unit_price": 712.0,
+    "amount": 184052.0
+   },
+   {
+    "description": "Arabica Plantation A, washed green bean - Lot KRE/183-D",
+    "qty": 398.25,
+    "unit_price": 563.0,
+    "amount": 224214.75
+   },
+   {
+    "description": "Arabica Cherry AB, natural green bean - Lot KRE/857-E",
+    "qty": 658.25,
+    "unit_price": 487.0,
+    "amount": 320567.75
+   },
+   {
+    "description": "Robusta Cherry AA, green bean - Lot KRE/320-F",
+    "qty": 350.25,
+    "unit_price": 327.0,
+    "amount": 114531.75
+   },
+   {
+    "description": "Robusta Parchment AB, green bean - Lot KRE/736-A",
+    "qty": 521.0,
+    "unit_price": 387.0,
+    "amount": 201627.0
+   },
+   {
+    "description": "Peaberry PB Arabica, washed - Lot KRE/869-B",
+    "qty": 123.75,
+    "unit_price": 659.0,
+    "amount": 81551.25
+   },
+   {
+    "description": "Arabica Plantation A, washed green bean - Lot KRE/810-C",
+    "qty": 597.5,
+    "unit_price": 601.0,
+    "amount": 359097.5
+   },
+   {
+    "description": "Arabica Cherry AB, natural green bean - Lot KRE/806-D",
+    "qty": 433.0,
+    "unit_price": 506.5,
+    "amount": 219314.5
+   },
+   {
+    "description": "Robusta Cherry AA, green bean - Lot KRE/522-E",
+    "qty": 629.25,
+    "unit_price": 293.0,
+    "amount": 184370.25
+   },
+   {
+    "description": "Robusta Parchment AB, green bean - Lot KRE/110-F",
+    "qty": 673.0,
+    "unit_price": 347.0,
+    "amount": 233531.0
+   },
+   {
+    "description": "Peaberry PB Arabica, washed - Lot KRE/523-A",
+    "qty": 76.0,
+    "unit_price": 640.0,
+    "amount": 48640.0
+   }
+  ]
+ },
+ "low": {
+  "due_date": [
+   "not_in_source"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 16,
+  "llm_ms": 30345,
+  "llm_first_ms": 30345,
+  "check_ms": 3,
+  "total_ms": 30365,
+  "prompt_tokens": 2356,
+  "completion_tokens": 1058
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Kaveri Ridge Estates Pvt Ltd\",\"supplier_gstin\":\"29AABCK3381M1Z4\",\"invoice_number\":\"KRE/26-27/0711\",\"invoice_date\":\"2026-10-29\",\"due_date\":\"2026-11-13\",\"line_items\":[{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/284-A\",\"qty\":723.25,\"unit_price\":499.5,\"amount\":361263.38},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/644-B\",\"qty\":1366.75,\"unit_price\":324.0,\"amount\":442827.0},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/460-C\",\"qty\":916.75,\"unit_price\":381.0,\"amount\":349281.75},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/278-D\",\"qty\":204.75,\"unit_price\":679.0,\"amount\":139025.25},{\"description\":\"Arabica Plantation A, washed green bean - Lot KRE/257-E\",\"qty\":286.5,\"unit_price\":578.0,\"amount\":165597.0},{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/174-F\",\"qty\":463.75,\"unit_price\":476.0,\"amount\":220745.0},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/289-A\",\"qty\":1043.5,\"unit_price\":320.0,\"amount\":333920.0},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/190-B\",\"qty\":421.75,\"unit_price\":385.0,\"amount\":162373.75},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/732-C\",\"qty\":258.5,\"unit_price\":712.0,\"amount\":184052.0},{\"description\":\"Arabica Plantation A, washed green bean - Lot KRE/183-D\",\"qty\":398.25,\"unit_price\":563.0,\"amount\":224214.75},{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/857-E\",\"qty\":658.25,\"unit_price\":487.0,\"amount\":320567.75},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/320-F\",\"qty\":350.25,\"unit_price\":327.0,\"amount\":114531.75},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/736-A\",\"qty\":521.0,\"unit_price\":387.0,\"amount\":201627.0},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/869-B\",\"qty\":123.75,\"unit_price\":659.0,\"amount\":81551.25},{\"description\":\"Arabica Plantation A, washed green bean - Lot KRE/810-C\",\"qty\":597.5,\"unit_price\":601.0,\"amount\":359097.5},{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/806-D\",\"qty\":433.0,\"unit_price\":506.5,\"amount\":219314.5},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/522-E\",\"qty\":629.25,\"unit_price\":293.0,\"amount\":184370.25},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/110-F\",\"qty\":673.0,\"unit_price\":347.0,\"amount\":233531.0},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/523-A\",\"qty\":76.0,\"unit_price\":640.0,\"amount\":48640.0}],\"subtotal\":4346530.88,\"gst_rate\":5,\"gst_amount\":217326.54,\"total\":4563857.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Kaveri Ridge Estates Pvt Ltd\",\"supplier_gstin\":\"29AABCK3381M1Z4\",\"invoice_number\":\"KRE/26-27/0711\",\"invoice_date\":\"2026-10-29\",\"due_date\":\"2026-11-13\",\"line_items\":[{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/284-A\",\"qty\":723.25,\"unit_price\":499.5,\"amount\":361263.38},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/644-B\",\"qty\":1366.75,\"unit_price\":324.0,\"amount\":442827.0},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/460-C\",\"qty\":916.75,\"unit_price\":381.0,\"amount\":349281.75},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/278-D\",\"qty\":204.75,\"unit_price\":679.0,\"amount\":139025.25},{\"description\":\"Arabica Plantation A, washed green bean - Lot KRE/257-E\",\"qty\":286.5,\"unit_price\":578.0,\"amount\":165597.0},{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/174-F\",\"qty\":463.75,\"unit_price\":476.0,\"amount\":220745.0},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/289-A\",\"qty\":1043.5,\"unit_price\":320.0,\"amount\":333920.0},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/190-B\",\"qty\":421.75,\"unit_price\":385.0,\"amount\":162373.75},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/732-C\",\"qty\":258.5,\"unit_price\":712.0,\"amount\":184052.0},{\"description\":\"Arabica Plantation A, washed green bean - Lot KRE/183-D\",\"qty\":398.25,\"unit_price\":563.0,\"amount\":224214.75},{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/857-E\",\"qty\":658.25,\"unit_price\":487.0,\"amount\":320567.75},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/320-F\",\"qty\":350.25,\"unit_price\":327.0,\"amount\":114531.75},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/736-A\",\"qty\":521.0,\"unit_price\":387.0,\"amount\":201627.0},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/869-B\",\"qty\":123.75,\"unit_price\":659.0,\"amount\":81551.25},{\"description\":\"Arabica Plantation A, washed green bean - Lot KRE/810-C\",\"qty\":597.5,\"unit_price\":601.0,\"amount\":359097.5},{\"description\":\"Arabica Cherry AB, natural green bean - Lot KRE/806-D\",\"qty\":433.0,\"unit_price\":506.5,\"amount\":219314.5},{\"description\":\"Robusta Cherry AA, green bean - Lot KRE/522-E\",\"qty\":629.25,\"unit_price\":293.0,\"amount\":184370.25},{\"description\":\"Robusta Parchment AB, green bean - Lot KRE/110-F\",\"qty\":673.0,\"unit_price\":347.0,\"amount\":233531.0},{\"description\":\"Peaberry PB Arabica, washed - Lot KRE/523-A\",\"qty\":76.0,\"unit_price\":640.0,\"amount\":48640.0}],\"subtotal\":4346530.88,\"gst_rate\":5,\"gst_amount\":217326.54,\"total\":4563857.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 2356,
+   "completion_tokens": 1058,
+   "latency_ms": 30345,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

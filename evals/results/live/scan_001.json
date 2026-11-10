@@ -1,0 +1,60 @@
+{
+ "id": "scan_001",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Kaveri RidgeEstatesPvtLtd",
+  "supplier_gstin": "29AABCK3381M1Z4",
+  "invoice_number": "KRE/26-27/0745",
+  "invoice_date": "2026-08-22",
+  "due_date": "2026-10-06",
+  "subtotal": 864333.31,
+  "gst_rate": 5.0,
+  "gst_amount": 43216.67,
+  "total": 907549.98,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "ArabicaPlantationA,washedgreenbean",
+    "qty": 430.25,
+    "unit_price": 608.25,
+    "amount": 261699.56
+   },
+   {
+    "description": "RobustaParchmentAB,greenbean",
+    "qty": 462.25,
+    "unit_price": 365.0,
+    "amount": 168721.25
+   },
+   {
+    "description": "RobustaCherryAA,greenbean",
+    "qty": 1268.75,
+    "unit_price": 342.0,
+    "amount": 433912.5
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 3589,
+  "llm_ms": 9090,
+  "llm_first_ms": 9090,
+  "check_ms": 8,
+  "total_ms": 12689,
+  "prompt_tokens": 1210,
+  "completion_tokens": 254
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Kaveri RidgeEstatesPvtLtd\",\"supplier_gstin\":\"29AABCK3381M1Z4\",\"invoice_number\":\"KRE/26-27/0745\",\"invoice_date\":\"2026-08-22\",\"due_date\":\"2026-10-06\",\"line_items\":[{\"description\":\"ArabicaPlantationA,washedgreenbean\",\"qty\":430.25,\"unit_price\":608.25,\"amount\":261699.56},{\"description\":\"RobustaParchmentAB,greenbean\",\"qty\":462.25,\"unit_price\":365.0,\"amount\":168721.25},{\"description\":\"RobustaCherryAA,greenbean\",\"qty\":1268.75,\"unit_price\":342.0,\"amount\":433912.5}],\"subtotal\":864333.31,\"gst_rate\":5,\"gst_amount\":43216.67,\"total\":907549.98,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Kaveri RidgeEstatesPvtLtd\",\"supplier_gstin\":\"29AABCK3381M1Z4\",\"invoice_number\":\"KRE/26-27/0745\",\"invoice_date\":\"2026-08-22\",\"due_date\":\"2026-10-06\",\"line_items\":[{\"description\":\"ArabicaPlantationA,washedgreenbean\",\"qty\":430.25,\"unit_price\":608.25,\"amount\":261699.56},{\"description\":\"RobustaParchmentAB,greenbean\",\"qty\":462.25,\"unit_price\":365.0,\"amount\":168721.25},{\"description\":\"RobustaCherryAA,greenbean\",\"qty\":1268.75,\"unit_price\":342.0,\"amount\":433912.5}],\"subtotal\":864333.31,\"gst_rate\":5,\"gst_amount\":43216.67,\"total\":907549.98,\"currency\":\"INR\"}",
+   "prompt_tokens": 1210,
+   "completion_tokens": 254,
+   "latency_ms": 9090,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

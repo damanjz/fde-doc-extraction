@@ -1,0 +1,54 @@
+{
+  "id": "inv_021",
+  "type": "invoice",
+  "layout": 1,
+  "source": "pdf",
+  "file": "inv_021.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Kaveri Ridge Estates Pvt Ltd",
+    "supplier_gstin": "29AABCK3381M1Z4",
+    "invoice_number": "KRE/26-27/0733",
+    "invoice_date": "2026-09-10",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Arabica Plantation A, washed green bean",
+        "qty": 435.5,
+        "unit_price": 593.5,
+        "amount": 258469.25
+      },
+      {
+        "description": "Peaberry PB Arabica, washed",
+        "qty": 131.25,
+        "unit_price": 648.0,
+        "amount": 85050.0
+      },
+      {
+        "description": "Arabica Cherry AB, natural green bean",
+        "qty": 761.75,
+        "unit_price": 510.0,
+        "amount": 388492.5
+      },
+      {
+        "description": "Robusta Parchment AB, green bean",
+        "qty": 1111.5,
+        "unit_price": 336.5,
+        "amount": 374019.75
+      },
+      {
+        "description": "Robusta Cherry AA, green bean",
+        "qty": 1138.5,
+        "unit_price": 313.0,
+        "amount": 356350.5
+      }
+    ],
+    "subtotal": 1462382.0,
+    "gst_rate": 5.0,
+    "gst_amount": 73119.1,
+    "total": 1535501.0,
+    "currency": "INR"
+  }
+}

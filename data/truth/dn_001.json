@@ -1,0 +1,25 @@
+{
+  "id": "dn_001",
+  "type": "delivery_note",
+  "layout": 1,
+  "source": "pdf",
+  "file": "dn_001.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "Swiftline Express Couriers Pvt Ltd",
+    "courier_gstin": "36AAGCS8827N1ZL",
+    "awb_number": "SLX554078241",
+    "ship_date": "2026-10-13",
+    "delivery_date": "2026-10-14",
+    "origin": "New Delhi",
+    "destination": "Hyderabad",
+    "consignor": "Bharat Brewgear Works",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 6,
+    "weight_kg": 32.87,
+    "reference_number": "BBW/389/26-27",
+    "received_by": "P. Sridhar"
+  }
+}

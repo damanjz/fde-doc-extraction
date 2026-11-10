@@ -1,0 +1,58 @@
+{
+ "id": "inv_011",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Kaveri Ridge Estates Pvt Ltd",
+  "supplier_gstin": "29AABCK3381M1Z4",
+  "invoice_number": "KRE/26-27/0719",
+  "invoice_date": null,
+  "due_date": null,
+  "subtotal": 323587.5,
+  "gst_rate": 5.0,
+  "gst_amount": 16179.38,
+  "total": 339767.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Robusta Parchment AB, green bean",
+    "qty": 268.75,
+    "unit_price": 372.0,
+    "amount": 99975.0
+   },
+   {
+    "description": "Robusta Cherry AA, green bean",
+    "qty": 667.5,
+    "unit_price": 335.0,
+    "amount": 223612.5
+   }
+  ]
+ },
+ "low": {
+  "invoice_date": [
+   "validation:missing"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 13,
+  "llm_ms": 7468,
+  "llm_first_ms": 7468,
+  "check_ms": 4,
+  "total_ms": 7486,
+  "prompt_tokens": 1196,
+  "completion_tokens": 183
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Kaveri Ridge Estates Pvt Ltd\",\"supplier_gstin\":\"29AABCK3381M1Z4\",\"invoice_number\":\"KRE/26-27/0719\",\"invoice_date\":null,\"due_date\":null,\"line_items\":[{\"description\":\"Robusta Parchment AB, green bean\",\"qty\":268.75,\"unit_price\":372.0,\"amount\":99975.0},{\"description\":\"Robusta Cherry AA, green bean\",\"qty\":667.5,\"unit_price\":335.0,\"amount\":223612.5}],\"subtotal\":323587.5,\"gst_rate\":5,\"gst_amount\":16179.38,\"total\":339767.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Kaveri Ridge Estates Pvt Ltd\",\"supplier_gstin\":\"29AABCK3381M1Z4\",\"invoice_number\":\"KRE/26-27/0719\",\"invoice_date\":null,\"due_date\":null,\"line_items\":[{\"description\":\"Robusta Parchment AB, green bean\",\"qty\":268.75,\"unit_price\":372.0,\"amount\":99975.0},{\"description\":\"Robusta Cherry AA, green bean\",\"qty\":667.5,\"unit_price\":335.0,\"amount\":223612.5}],\"subtotal\":323587.5,\"gst_rate\":5,\"gst_amount\":16179.38,\"total\":339767.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 1196,
+   "completion_tokens": 183,
+   "latency_ms": 7468,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "inv_015",
+  "type": "invoice",
+  "layout": 5,
+  "source": "pdf",
+  "file": "inv_015.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Blue Ridge Beans Trading Co",
+    "supplier_gstin": "33AAJFB3306G1ZY",
+    "invoice_number": "INV202600699",
+    "invoice_date": "2026-10-25",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Chicory powder 25 kg sack",
+        "qty": 20.0,
+        "unit_price": 2362.25,
+        "amount": 47245.0
+      },
+      {
+        "description": "Arabica Plantation B, washed green bean",
+        "qty": 758.75,
+        "unit_price": 538.0,
+        "amount": 408207.5
+      }
+    ],
+    "subtotal": 455452.5,
+    "gst_rate": 5.0,
+    "gst_amount": 22772.63,
+    "total": 478225.13,
+    "currency": "INR"
+  }
+}

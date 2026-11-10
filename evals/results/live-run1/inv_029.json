@@ -1,0 +1,66 @@
+{
+ "id": "inv_029",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "PEARL CITY KITCHENWARE PVT LTD",
+  "supplier_gstin": "36AAFCP1857L1Z1",
+  "invoice_number": "PCK/0659",
+  "invoice_date": "2026-08-19",
+  "due_date": "2026-10-18",
+  "subtotal": 304044.0,
+  "gst_rate": 18.0,
+  "gst_amount": 54727.92,
+  "total": 358771.92,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "French press 600 ml, borosilicate",
+    "qty": 131.0,
+    "unit_price": 728.0,
+    "amount": 95368.0
+   },
+   {
+    "description": "Cupping spoon set of 6, stainless",
+    "qty": 62.0,
+    "unit_price": 1250.5,
+    "amount": 77531.0
+   },
+   {
+    "description": "Ceramic mug 300 ml, speckle glaze",
+    "qty": 234.0,
+    "unit_price": 178.5,
+    "amount": 41769.0
+   },
+   {
+    "description": "Pour-over stand, bamboo",
+    "qty": 128.0,
+    "unit_price": 698.25,
+    "amount": 89376.0
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 14,
+  "llm_ms": 9895,
+  "llm_first_ms": 9895,
+  "check_ms": 2,
+  "total_ms": 9912,
+  "prompt_tokens": 1329,
+  "completion_tokens": 277
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"PEARL CITY KITCHENWARE PVT LTD\",\"supplier_gstin\":\"36AAFCP1857L1Z1\",\"invoice_number\":\"PCK/0659\",\"invoice_date\":\"2026-08-19\",\"due_date\":\"2026-10-18\",\"line_items\":[{\"description\":\"French press 600 ml, borosilicate\",\"qty\":131,\"unit_price\":728.0,\"amount\":95368.0},{\"description\":\"Cupping spoon set of 6, stainless\",\"qty\":62,\"unit_price\":1250.5,\"amount\":77531.0},{\"description\":\"Ceramic mug 300 ml, speckle glaze\",\"qty\":234,\"unit_price\":178.5,\"amount\":41769.0},{\"description\":\"Pour-over stand, bamboo\",\"qty\":128,\"unit_price\":698.25,\"amount\":89376.0}],\"subtotal\":304044.0,\"gst_rate\":18,\"gst_amount\":54727.92,\"total\":358771.92,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"PEARL CITY KITCHENWARE PVT LTD\",\"supplier_gstin\":\"36AAFCP1857L1Z1\",\"invoice_number\":\"PCK/0659\",\"invoice_date\":\"2026-08-19\",\"due_date\":\"2026-10-18\",\"line_items\":[{\"description\":\"French press 600 ml, borosilicate\",\"qty\":131,\"unit_price\":728.0,\"amount\":95368.0},{\"description\":\"Cupping spoon set of 6, stainless\",\"qty\":62,\"unit_price\":1250.5,\"amount\":77531.0},{\"description\":\"Ceramic mug 300 ml, speckle glaze\",\"qty\":234,\"unit_price\":178.5,\"amount\":41769.0},{\"description\":\"Pour-over stand, bamboo\",\"qty\":128,\"unit_price\":698.25,\"amount\":89376.0}],\"subtotal\":304044.0,\"gst_rate\":18,\"gst_amount\":54727.92,\"total\":358771.92,\"currency\":\"INR\"}",
+   "prompt_tokens": 1329,
+   "completion_tokens": 277,
+   "latency_ms": 9895,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

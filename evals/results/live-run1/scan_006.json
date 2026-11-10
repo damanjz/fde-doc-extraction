@@ -1,0 +1,61 @@
+{
+ "id": "scan_006",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Wayanad Mist Plantations LLP",
+  "supplier_gstin": "32AAKFW7742D1Z4",
+  "invoice_number": "WMP/26-27/0858",
+  "invoice_date": "2026-11-01",
+  "due_date": null,
+  "subtotal": 485129.0,
+  "gst_rate": 5.0,
+  "gst_amount": 24256.45,
+  "total": 509385.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Robusta Cherry AA, green bean",
+    "qty": 1234.75,
+    "unit_price": 328.0,
+    "amount": 404998.0
+   },
+   {
+    "description": "Robusta Parchment AB, green bean",
+    "qty": 227.0,
+    "unit_price": 353.0,
+    "amount": 80131.0
+   }
+  ]
+ },
+ "low": {
+  "supplier_gstin": [
+   "not_in_source"
+  ],
+  "subtotal": [
+   "ocr_low_confidence:0.68"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 2542,
+  "llm_ms": 7782,
+  "llm_first_ms": 7782,
+  "check_ms": 3,
+  "total_ms": 10328,
+  "prompt_tokens": 1176,
+  "completion_tokens": 193
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Wayanad Mist Plantations LLP\",\"supplier_gstin\":\"32AAKFW7742D1Z4\",\"invoice_number\":\"WMP/26-27/0858\",\"invoice_date\":\"2026-11-01\",\"due_date\":null,\"line_items\":[{\"description\":\"Robusta Cherry AA, green bean\",\"qty\":1234.75,\"unit_price\":328.0,\"amount\":404998.0},{\"description\":\"Robusta Parchment AB, green bean\",\"qty\":227.0,\"unit_price\":353.0,\"amount\":80131.0}],\"subtotal\":485129.0,\"gst_rate\":5,\"gst_amount\":24256.45,\"total\":509385.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Wayanad Mist Plantations LLP\",\"supplier_gstin\":\"32AAKFW7742D1Z4\",\"invoice_number\":\"WMP/26-27/0858\",\"invoice_date\":\"2026-11-01\",\"due_date\":null,\"line_items\":[{\"description\":\"Robusta Cherry AA, green bean\",\"qty\":1234.75,\"unit_price\":328.0,\"amount\":404998.0},{\"description\":\"Robusta Parchment AB, green bean\",\"qty\":227.0,\"unit_price\":353.0,\"amount\":80131.0}],\"subtotal\":485129.0,\"gst_rate\":5,\"gst_amount\":24256.45,\"total\":509385.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 1176,
+   "completion_tokens": 193,
+   "latency_ms": 7782,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dn_003",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "Swiftline Express Couriers Pvt Ltd",
+  "courier_gstin": "36AAGCS8827N1ZL",
+  "awb_number": "SLX725395416",
+  "ship_date": "2026-09-17",
+  "delivery_date": "2026-09-23",
+  "origin": "Hyderabad",
+  "destination": "Hyderabad",
+  "consignor": "Pearl City Kitchenware Pvt Ltd",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 4,
+  "weight_kg": 355.5,
+  "reference_number": "PCK/0568",
+  "received_by": "K. Lakshmi Devi"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 5,
+  "llm_ms": 6035,
+  "llm_first_ms": 6035,
+  "check_ms": 2,
+  "total_ms": 6042,
+  "prompt_tokens": 744,
+  "completion_tokens": 143
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1ZL\",\"awb_number\":\"SLX725395416\",\"ship_date\":\"2026-09-17\",\"delivery_date\":\"2026-09-23\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Pearl City Kitchenware Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":4,\"weight_kg\":355.5,\"reference_number\":\"PCK/0568\",\"received_by\":\"K. Lakshmi Devi\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1ZL\",\"awb_number\":\"SLX725395416\",\"ship_date\":\"2026-09-17\",\"delivery_date\":\"2026-09-23\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Pearl City Kitchenware Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":4,\"weight_kg\":355.5,\"reference_number\":\"PCK/0568\",\"received_by\":\"K. Lakshmi Devi\"}",
+   "prompt_tokens": 744,
+   "completion_tokens": 143,
+   "latency_ms": 6035,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

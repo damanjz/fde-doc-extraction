@@ -1,0 +1,42 @@
+{
+  "id": "scan_009",
+  "type": "invoice",
+  "layout": 4,
+  "source": "scan",
+  "file": "scan_009.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Pearl City Kitchenware Pvt Ltd",
+    "supplier_gstin": "36AAFCP1857L1Z1",
+    "invoice_number": "PCK/0709",
+    "invoice_date": "2026-10-22",
+    "due_date": "2026-12-06",
+    "line_items": [
+      {
+        "description": "Ceramic mug 300 ml, speckle glaze",
+        "qty": 513.0,
+        "unit_price": 281.0,
+        "amount": 144153.0
+      },
+      {
+        "description": "Cupping spoon set of 6, stainless",
+        "qty": 65.0,
+        "unit_price": 1361.5,
+        "amount": 88497.5
+      },
+      {
+        "description": "French press 600 ml, borosilicate",
+        "qty": 124.0,
+        "unit_price": 608.25,
+        "amount": 75423.0
+      }
+    ],
+    "subtotal": 308073.5,
+    "gst_rate": 18.0,
+    "gst_amount": 55453.24,
+    "total": 363527.0,
+    "currency": "INR"
+  }
+}

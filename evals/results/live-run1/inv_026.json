@@ -1,0 +1,60 @@
+{
+ "id": "inv_026",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Wayanad Mist Plantations LLP",
+  "supplier_gstin": "32AAKFW7742D1Z4",
+  "invoice_number": "WMP/26-27/0847",
+  "invoice_date": "2026-10-03",
+  "due_date": "2026-11-17",
+  "subtotal": 627473.5,
+  "gst_rate": 5.0,
+  "gst_amount": 31373.68,
+  "total": 658847.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Peaberry PB Arabica, washed",
+    "qty": 265.75,
+    "unit_price": 650.0,
+    "amount": 172737.5
+   },
+   {
+    "description": "Robusta Cherry AA, green bean",
+    "qty": 1042.5,
+    "unit_price": 319.5,
+    "amount": 333078.75
+   },
+   {
+    "description": "Monsooned Malabar AA, green bean",
+    "qty": 228.25,
+    "unit_price": 533.0,
+    "amount": 121657.25
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 11,
+  "llm_ms": 9200,
+  "llm_first_ms": 9200,
+  "check_ms": 4,
+  "total_ms": 9216,
+  "prompt_tokens": 1253,
+  "completion_tokens": 246
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Wayanad Mist Plantations LLP\",\"supplier_gstin\":\"32AAKFW7742D1Z4\",\"invoice_number\":\"WMP/26-27/0847\",\"invoice_date\":\"2026-10-03\",\"due_date\":\"2026-11-17\",\"line_items\":[{\"description\":\"Peaberry PB Arabica, washed\",\"qty\":265.75,\"unit_price\":650.0,\"amount\":172737.5},{\"description\":\"Robusta Cherry AA, green bean\",\"qty\":1042.5,\"unit_price\":319.5,\"amount\":333078.75},{\"description\":\"Monsooned Malabar AA, green bean\",\"qty\":228.25,\"unit_price\":533.0,\"amount\":121657.25}],\"subtotal\":627473.5,\"gst_rate\":5,\"gst_amount\":31373.68,\"total\":658847.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Wayanad Mist Plantations LLP\",\"supplier_gstin\":\"32AAKFW7742D1Z4\",\"invoice_number\":\"WMP/26-27/0847\",\"invoice_date\":\"2026-10-03\",\"due_date\":\"2026-11-17\",\"line_items\":[{\"description\":\"Peaberry PB Arabica, washed\",\"qty\":265.75,\"unit_price\":650.0,\"amount\":172737.5},{\"description\":\"Robusta Cherry AA, green bean\",\"qty\":1042.5,\"unit_price\":319.5,\"amount\":333078.75},{\"description\":\"Monsooned Malabar AA, green bean\",\"qty\":228.25,\"unit_price\":533.0,\"amount\":121657.25}],\"subtotal\":627473.5,\"gst_rate\":5,\"gst_amount\":31373.68,\"total\":658847.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 1253,
+   "completion_tokens": 246,
+   "latency_ms": 9200,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

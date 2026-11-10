@@ -1,0 +1,60 @@
+{
+ "id": "inv_007",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Deccan Kraft & Labels Pvt Ltd",
+  "supplier_gstin": "36AAFCD9065R1ZT",
+  "invoice_number": "DKL-00562",
+  "invoice_date": "2026-08-13",
+  "due_date": "2026-08-28",
+  "subtotal": 169895.0,
+  "gst_rate": 18.0,
+  "gst_amount": 30581.1,
+  "total": 200476.1,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Corrugated shipper carton 5-ply, 12x9x6 in",
+    "qty": 1570.0,
+    "unit_price": 33.5,
+    "amount": 52595.0
+   },
+   {
+    "description": "Adhesive label roll 100x50 mm, 1000 per roll",
+    "qty": 190.0,
+    "unit_price": 327.0,
+    "amount": 62130.0
+   },
+   {
+    "description": "Bubble wrap roll 1 m x 100 m",
+    "qty": 60.0,
+    "unit_price": 919.5,
+    "amount": 55170.0
+   }
+  ]
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 10,
+  "llm_ms": 9354,
+  "llm_first_ms": 9354,
+  "check_ms": 5,
+  "total_ms": 9370,
+  "prompt_tokens": 1212,
+  "completion_tokens": 253
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Deccan Kraft & Labels Pvt Ltd\",\"supplier_gstin\":\"36AAFCD9065R1ZT\",\"invoice_number\":\"DKL-00562\",\"invoice_date\":\"2026-08-13\",\"due_date\":\"2026-08-28\",\"line_items\":[{\"description\":\"Corrugated shipper carton 5-ply, 12x9x6 in\",\"qty\":1570,\"unit_price\":33.5,\"amount\":52595.0},{\"description\":\"Adhesive label roll 100x50 mm, 1000 per roll\",\"qty\":190,\"unit_price\":327.0,\"amount\":62130.0},{\"description\":\"Bubble wrap roll 1 m x 100 m\",\"qty\":60,\"unit_price\":919.5,\"amount\":55170.0}],\"subtotal\":169895.0,\"gst_rate\":18,\"gst_amount\":30581.1,\"total\":200476.1,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Deccan Kraft & Labels Pvt Ltd\",\"supplier_gstin\":\"36AAFCD9065R1ZT\",\"invoice_number\":\"DKL-00562\",\"invoice_date\":\"2026-08-13\",\"due_date\":\"2026-08-28\",\"line_items\":[{\"description\":\"Corrugated shipper carton 5-ply, 12x9x6 in\",\"qty\":1570,\"unit_price\":33.5,\"amount\":52595.0},{\"description\":\"Adhesive label roll 100x50 mm, 1000 per roll\",\"qty\":190,\"unit_price\":327.0,\"amount\":62130.0},{\"description\":\"Bubble wrap roll 1 m x 100 m\",\"qty\":60,\"unit_price\":919.5,\"amount\":55170.0}],\"subtotal\":169895.0,\"gst_rate\":18,\"gst_amount\":30581.1,\"total\":200476.1,\"currency\":\"INR\"}",
+   "prompt_tokens": 1212,
+   "completion_tokens": 253,
+   "latency_ms": 9354,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

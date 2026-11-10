@@ -1,0 +1,25 @@
+{
+  "id": "dn_006",
+  "type": "delivery_note",
+  "layout": 2,
+  "source": "pdf",
+  "file": "dn_006.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "BlueKite Logistics India Pvt Ltd",
+    "courier_gstin": "29AAHCB5304J1ZM",
+    "awb_number": "878701471033",
+    "ship_date": "2026-10-21",
+    "delivery_date": "2026-10-27",
+    "origin": "Hyderabad",
+    "destination": "Hyderabad",
+    "consignor": "Hind Roastech Engineers",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 12,
+    "weight_kg": 520.63,
+    "reference_number": "HRE/538/26-27",
+    "received_by": "G. Padmavathi"
+  }
+}

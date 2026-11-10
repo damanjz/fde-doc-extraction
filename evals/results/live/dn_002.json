@@ -1,0 +1,43 @@
+{
+ "id": "dn_002",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "BlueKite Logistics India Pvt Ltd",
+  "courier_gstin": "29AAHCB5304J1ZM",
+  "awb_number": "489203144836",
+  "ship_date": "2026-08-15",
+  "delivery_date": "2026-08-17",
+  "origin": "Wayanad",
+  "destination": "Hyderabad",
+  "consignor": "Wayanad Mist Plantations LLP",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 11,
+  "weight_kg": 134.07,
+  "reference_number": "WMP/26-27/0740",
+  "received_by": "T. Naresh Kumar"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 8,
+  "llm_ms": 6263,
+  "llm_first_ms": 6263,
+  "check_ms": 2,
+  "total_ms": 6274,
+  "prompt_tokens": 736,
+  "completion_tokens": 152
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"489203144836\",\"ship_date\":\"2026-08-15\",\"delivery_date\":\"2026-08-17\",\"origin\":\"Wayanad\",\"destination\":\"Hyderabad\",\"consignor\":\"Wayanad Mist Plantations LLP\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":11,\"weight_kg\":134.07,\"reference_number\":\"WMP/26-27/0740\",\"received_by\":\"T. Naresh Kumar\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"489203144836\",\"ship_date\":\"2026-08-15\",\"delivery_date\":\"2026-08-17\",\"origin\":\"Wayanad\",\"destination\":\"Hyderabad\",\"consignor\":\"Wayanad Mist Plantations LLP\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":11,\"weight_kg\":134.07,\"reference_number\":\"WMP/26-27/0740\",\"received_by\":\"T. Naresh Kumar\"}",
+   "prompt_tokens": 736,
+   "completion_tokens": 152,
+   "latency_ms": 6263,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "inv_016",
+  "type": "invoice",
+  "layout": 1,
+  "source": "pdf",
+  "file": "inv_016.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Wayanad Mist Plantations LLP",
+    "supplier_gstin": "32AAKFW7742D1Z4",
+    "invoice_number": "WMP/26-27/0794",
+    "invoice_date": "2026-09-15",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Robusta Cherry AA, green bean",
+        "qty": 791.0,
+        "unit_price": 318.5,
+        "amount": 251933.5
+      },
+      {
+        "description": "Peaberry PB Arabica, washed",
+        "qty": 134.75,
+        "unit_price": 701.0,
+        "amount": 94459.75
+      },
+      {
+        "description": "Monsooned Malabar AA, green bean",
+        "qty": 238.0,
+        "unit_price": 571.0,
+        "amount": 135898.0
+      },
+      {
+        "description": "Robusta Parchment AB, green bean",
+        "qty": 835.5,
+        "unit_price": 355.25,
+        "amount": 296811.38
+      }
+    ],
+    "subtotal": 779102.63,
+    "gst_rate": 5.0,
+    "gst_amount": 38955.13,
+    "total": 818057.76,
+    "currency": "INR"
+  }
+}

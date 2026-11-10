@@ -1,0 +1,36 @@
+{
+  "id": "inv_024",
+  "type": "invoice",
+  "layout": 4,
+  "source": "pdf",
+  "file": "inv_024.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Coorg Grindworks & Fabricators",
+    "supplier_gstin": "29AAMFC4890P1ZH",
+    "invoice_number": "CGF/0755",
+    "invoice_date": "2026-08-25",
+    "due_date": "2026-09-24",
+    "line_items": [
+      {
+        "description": "Tamper 58 mm, walnut handle",
+        "qty": 137.0,
+        "unit_price": 781.0,
+        "amount": 106997.0
+      },
+      {
+        "description": "Milk pitcher 600 ml, matte black",
+        "qty": 103.0,
+        "unit_price": 741.5,
+        "amount": 76374.5
+      }
+    ],
+    "subtotal": 183371.5,
+    "gst_rate": 18.0,
+    "gst_amount": 33006.87,
+    "total": 216378.0,
+    "currency": "INR"
+  }
+}

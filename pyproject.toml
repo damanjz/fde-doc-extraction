@@ -1,0 +1,25 @@
+[project]
+name = "fde-doc-extraction"
+version = "0.1.0"
+requires-python = ">=3.13"
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+extend-exclude = ["data/docs"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["B008"]  # FastAPI Depends() in defaults is the documented idiom
+
+[tool.ruff.lint.per-file-ignores]
+"app/review.py" = ["E501"]  # inline CSS and UI strings
+"app/db.py" = ["E501"]
+"app/main.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore:Using .httpx. with .starlette.testclient"]
+markers = [
+  "ocr: runs rapidocr on a generated scan (a few seconds)",
+]

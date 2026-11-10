@@ -1,0 +1,48 @@
+{
+  "id": "inv_010",
+  "type": "invoice",
+  "layout": 5,
+  "source": "pdf",
+  "file": "inv_010.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Greenline Freight Services",
+    "supplier_gstin": "36AAIFG7761E1Z9",
+    "invoice_number": "INV202600724",
+    "invoice_date": "2026-08-28",
+    "due_date": "2026-10-27",
+    "line_items": [
+      {
+        "description": "Warehouse handling per pallet",
+        "qty": 29.0,
+        "unit_price": 219.5,
+        "amount": 6365.5
+      },
+      {
+        "description": "Freight, full truck load, Chikmagalur to Hyderabad",
+        "qty": 1.0,
+        "unit_price": 58139.0,
+        "amount": 58139.0
+      },
+      {
+        "description": "Freight, part load, Coimbatore to Hyderabad",
+        "qty": 1.0,
+        "unit_price": 20452.25,
+        "amount": 20452.25
+      },
+      {
+        "description": "Loading and unloading charges",
+        "qty": 2.0,
+        "unit_price": 7413.0,
+        "amount": 14826.0
+      }
+    ],
+    "subtotal": 99782.75,
+    "gst_rate": 18.0,
+    "gst_amount": 17960.9,
+    "total": 117744.0,
+    "currency": "INR"
+  }
+}

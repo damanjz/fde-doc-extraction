@@ -1,0 +1,44 @@
+{
+  "id": "inv_011",
+  "type": "invoice",
+  "layout": 1,
+  "source": "pdf",
+  "file": "inv_011.pdf",
+  "planted": [
+    "missing_date"
+  ],
+  "expected_flags": [
+    {
+      "field": "invoice_date",
+      "reason": "missing",
+      "related": []
+    }
+  ],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Kaveri Ridge Estates Pvt Ltd",
+    "supplier_gstin": "29AABCK3381M1Z4",
+    "invoice_number": "KRE/26-27/0719",
+    "invoice_date": null,
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Robusta Parchment AB, green bean",
+        "qty": 268.75,
+        "unit_price": 372.0,
+        "amount": 99975.0
+      },
+      {
+        "description": "Robusta Cherry AA, green bean",
+        "qty": 667.5,
+        "unit_price": 335.0,
+        "amount": 223612.5
+      }
+    ],
+    "subtotal": 323587.5,
+    "gst_rate": 5.0,
+    "gst_amount": 16179.38,
+    "total": 339767.0,
+    "currency": "INR"
+  }
+}

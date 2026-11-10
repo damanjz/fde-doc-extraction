@@ -1,0 +1,48 @@
+{
+  "id": "inv_003",
+  "type": "invoice",
+  "layout": 3,
+  "source": "pdf",
+  "file": "inv_003.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Bharat Brewgear Works",
+    "supplier_gstin": "07AAHFB2279K1Z8",
+    "invoice_number": "BBW/389/26-27",
+    "invoice_date": "2026-10-10",
+    "due_date": "2026-12-09",
+    "line_items": [
+      {
+        "description": "Gooseneck kettle 1 L, stainless steel",
+        "qty": 19.0,
+        "unit_price": 1812.5,
+        "amount": 34437.5
+      },
+      {
+        "description": "Replacement burr set, hand grinder",
+        "qty": 139.0,
+        "unit_price": 762.25,
+        "amount": 105952.75
+      },
+      {
+        "description": "V60 ceramic dripper size 02",
+        "qty": 235.0,
+        "unit_price": 487.0,
+        "amount": 114445.0
+      },
+      {
+        "description": "Digital coffee scale 2 kg, 0.1 g",
+        "qty": 112.0,
+        "unit_price": 1038.0,
+        "amount": 116256.0
+      }
+    ],
+    "subtotal": 371091.25,
+    "gst_rate": 18.0,
+    "gst_amount": 66796.43,
+    "total": 437887.68,
+    "currency": "INR"
+  }
+}

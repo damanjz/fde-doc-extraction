@@ -1,0 +1,43 @@
+{
+ "id": "dn_010",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "BlueKite Logistics India Pvt Ltd",
+  "courier_gstin": "29AAHCB5304J1ZM",
+  "awb_number": "255313765977",
+  "ship_date": "2026-08-20",
+  "delivery_date": "2026-08-25",
+  "origin": "Hyderabad",
+  "destination": "Hyderabad",
+  "consignor": "Pearl City Kitchenware Pvt Ltd",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 12,
+  "weight_kg": 167.1,
+  "reference_number": "PCK/0659",
+  "received_by": "R. Venkatesh"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 6,
+  "llm_ms": 6084,
+  "llm_first_ms": 6084,
+  "check_ms": 3,
+  "total_ms": 6094,
+  "prompt_tokens": 723,
+  "completion_tokens": 145
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"255313765977\",\"ship_date\":\"2026-08-20\",\"delivery_date\":\"2026-08-25\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Pearl City Kitchenware Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":12,\"weight_kg\":167.1,\"reference_number\":\"PCK/0659\",\"received_by\":\"R. Venkatesh\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"255313765977\",\"ship_date\":\"2026-08-20\",\"delivery_date\":\"2026-08-25\",\"origin\":\"Hyderabad\",\"destination\":\"Hyderabad\",\"consignor\":\"Pearl City Kitchenware Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":12,\"weight_kg\":167.1,\"reference_number\":\"PCK/0659\",\"received_by\":\"R. Venkatesh\"}",
+   "prompt_tokens": 723,
+   "completion_tokens": 145,
+   "latency_ms": 6084,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "scan_008",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Hind Roastech Engineers",
+  "supplier_gstin": "36AAGFH6318C1ZA",
+  "invoice_number": "HRE/592/26-27",
+  "invoice_date": "2026-10-22",
+  "due_date": "2026-12-06",
+  "subtotal": 66994.0,
+  "gst_rate": 18.0,
+  "gst_amount": 12058.92,
+  "total": 79052.92,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Chaff collector assembly",
+    "qty": 2.0,
+    "unit_price": 11079.0,
+    "amount": 22158.0
+   },
+   {
+    "description": "Replacement heating element 2.2kw",
+    "qty": 5.0,
+    "unit_price": 3575.0,
+    "amount": 17875.0
+   },
+   {
+    "description": "Cooling trays stainless steel. 40cm",
+    "qty": 4.0,
+    "unit_price": 6740.25,
+    "amount": 26961.0
+   }
+  ]
+ },
+ "low": {
+  "supplier_gstin": [
+   "validation:gstin_checksum"
+  ],
+  "line_items[0].qty": [
+   "ocr_low_confidence:0.69"
+  ],
+  "line_items[2].description": [
+   "not_in_source"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 1861,
+  "llm_ms": 8474,
+  "llm_first_ms": 8474,
+  "check_ms": 6,
+  "total_ms": 10342,
+  "prompt_tokens": 1171,
+  "completion_tokens": 226
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Hind Roastech Engineers\",\"supplier_gstin\":\"36AAGFH6318C1ZA\",\"invoice_number\":\"HRE/592/26-27\",\"invoice_date\":\"2026-10-22\",\"due_date\":\"2026-12-06\",\"line_items\":[{\"description\":\"Chaff collector assembly\",\"qty\":2,\"unit_price\":11079.0,\"amount\":22158.0},{\"description\":\"Replacement heating element 2.2kw\",\"qty\":5,\"unit_price\":3575.0,\"amount\":17875.0},{\"description\":\"Cooling trays stainless steel. 40cm\",\"qty\":4,\"unit_price\":6740.25,\"amount\":26961.0}],\"subtotal\":66994.0,\"gst_rate\":18,\"gst_amount\":12058.92,\"total\":79052.92,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Hind Roastech Engineers\",\"supplier_gstin\":\"36AAGFH6318C1ZA\",\"invoice_number\":\"HRE/592/26-27\",\"invoice_date\":\"2026-10-22\",\"due_date\":\"2026-12-06\",\"line_items\":[{\"description\":\"Chaff collector assembly\",\"qty\":2,\"unit_price\":11079.0,\"amount\":22158.0},{\"description\":\"Replacement heating element 2.2kw\",\"qty\":5,\"unit_price\":3575.0,\"amount\":17875.0},{\"description\":\"Cooling trays stainless steel. 40cm\",\"qty\":4,\"unit_price\":6740.25,\"amount\":26961.0}],\"subtotal\":66994.0,\"gst_rate\":18,\"gst_amount\":12058.92,\"total\":79052.92,\"currency\":\"INR\"}",
+   "prompt_tokens": 1171,
+   "completion_tokens": 226,
+   "latency_ms": 8474,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

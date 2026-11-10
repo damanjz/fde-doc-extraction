@@ -1,0 +1,33 @@
+{
+  "id": "dn_009",
+  "type": "delivery_note",
+  "layout": 1,
+  "source": "pdf",
+  "file": "dn_009.pdf",
+  "planted": [
+    "gstin_invalid"
+  ],
+  "expected_flags": [
+    {
+      "field": "courier_gstin",
+      "reason": "gstin_checksum",
+      "related": []
+    }
+  ],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "Swiftline Express Couriers Pvt Ltd",
+    "courier_gstin": "36AAGCS8827N1Z3",
+    "awb_number": "SLX504466383",
+    "ship_date": "2026-08-30",
+    "delivery_date": "2026-09-01",
+    "origin": "Hyderabad",
+    "destination": "Hyderabad",
+    "consignor": "Deccan Kraft & Labels Pvt Ltd",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 12,
+    "weight_kg": 333.24,
+    "reference_number": "DKL-00648",
+    "received_by": "Farhan Ali"
+  }
+}

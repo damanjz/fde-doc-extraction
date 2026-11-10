@@ -1,0 +1,64 @@
+{
+ "id": "scan_004",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "Coorg Grindworks & Fabricators",
+  "supplier_gstin": "29AAMFC4890P1ZH",
+  "invoice_number": "CGF/0802",
+  "invoice_date": "2026-10-30",
+  "due_date": "2026-11-29",
+  "subtotal": 58717.0,
+  "gst_rate": 18.0,
+  "gst_amount": 10569.06,
+  "total": 69286.06,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Handgrinder 30mm steel burr, aluminium body",
+    "qty": 18.0,
+    "unit_price": 1704.0,
+    "amount": 30672.0
+   },
+   {
+    "description": "Tamper 58mm, walnut handle",
+    "qty": 45.0,
+    "unit_price": 544.0,
+    "amount": 24480.0
+   }
+  ]
+ },
+ "low": {
+  "subtotal": [
+   "validation:subtotal_mismatch"
+  ],
+  "line_items[1].qty": [
+   "ocr_low_confidence:0.66"
+  ],
+  "line_items": [
+   "validation:subtotal_mismatch"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 2464,
+  "llm_ms": 7752,
+  "llm_first_ms": 7752,
+  "check_ms": 6,
+  "total_ms": 10223,
+  "prompt_tokens": 1218,
+  "completion_tokens": 195
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"Coorg Grindworks & Fabricators\",\"supplier_gstin\":\"29AAMFC4890P1ZH\",\"invoice_number\":\"CGF/0802\",\"invoice_date\":\"2026-10-30\",\"due_date\":\"2026-11-29\",\"line_items\":[{\"description\":\"Handgrinder 30mm steel burr, aluminium body\",\"qty\":18,\"unit_price\":1704.0,\"amount\":30672.0},{\"description\":\"Tamper 58mm, walnut handle\",\"qty\":45,\"unit_price\":544.0,\"amount\":24480.0}],\"subtotal\":58717.0,\"gst_rate\":18,\"gst_amount\":10569.06,\"total\":69286.06,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"Coorg Grindworks & Fabricators\",\"supplier_gstin\":\"29AAMFC4890P1ZH\",\"invoice_number\":\"CGF/0802\",\"invoice_date\":\"2026-10-30\",\"due_date\":\"2026-11-29\",\"line_items\":[{\"description\":\"Handgrinder 30mm steel burr, aluminium body\",\"qty\":18,\"unit_price\":1704.0,\"amount\":30672.0},{\"description\":\"Tamper 58mm, walnut handle\",\"qty\":45,\"unit_price\":544.0,\"amount\":24480.0}],\"subtotal\":58717.0,\"gst_rate\":18,\"gst_amount\":10569.06,\"total\":69286.06,\"currency\":\"INR\"}",
+   "prompt_tokens": 1218,
+   "completion_tokens": 195,
+   "latency_ms": 7752,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

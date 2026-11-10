@@ -1,0 +1,25 @@
+{
+  "id": "dn_007",
+  "type": "delivery_note",
+  "layout": 1,
+  "source": "pdf",
+  "file": "dn_007.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "Swiftline Express Couriers Pvt Ltd",
+    "courier_gstin": "36AAGCS8827N1ZL",
+    "awb_number": "SLX216003025",
+    "ship_date": "2026-09-13",
+    "delivery_date": "2026-09-15",
+    "origin": "Chikmagalur",
+    "destination": "Hyderabad",
+    "consignor": "Kaveri Ridge Estates Pvt Ltd",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 8,
+    "weight_kg": 536.36,
+    "reference_number": "KRE/26-27/0733",
+    "received_by": "Mohammed Irfan"
+  }
+}

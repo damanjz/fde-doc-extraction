@@ -1,0 +1,61 @@
+{
+ "id": "scan_002",
+ "failed": false,
+ "error": null,
+ "record": {
+  "supplier_name": "SundaramFlexipack Industries Pvt Ltd",
+  "supplier_gstin": "33AAECS5126H1ZK",
+  "invoice_number": "SFI-00394",
+  "invoice_date": "2026-08-11",
+  "due_date": "2026-09-10",
+  "subtotal": 153667.5,
+  "gst_rate": 18.0,
+  "gst_amount": 27660.15,
+  "total": 181328.0,
+  "currency": "INR",
+  "line_items": [
+   {
+    "description": "Aluminiumfoilbag1kg,one-wayvalve",
+    "qty": 9852.0,
+    "unit_price": 10.0,
+    "amount": 98520.0
+   },
+   {
+    "description": "Tin tie closure strip,kraft",
+    "qty": 36765.0,
+    "unit_price": 1.5,
+    "amount": 55147.5
+   }
+  ]
+ },
+ "low": {
+  "supplier_gstin": [
+   "not_in_source"
+  ],
+  "invoice_number": [
+   "validation:duplicate_invoice_number"
+  ]
+ },
+ "warnings": [],
+ "doc_type": "invoice",
+ "timings": {
+  "text_ms": 2365,
+  "llm_ms": 7921,
+  "llm_first_ms": 7921,
+  "check_ms": 5,
+  "total_ms": 10292,
+  "prompt_tokens": 1097,
+  "completion_tokens": 195
+ },
+ "repaired": false,
+ "raw_reply": "{\"supplier_name\":\"SundaramFlexipack Industries Pvt Ltd\",\"supplier_gstin\":\"33AAECS5126H1ZK\",\"invoice_number\":\"SFI-00394\",\"invoice_date\":\"2026-08-11\",\"due_date\":\"2026-09-10\",\"line_items\":[{\"description\":\"Aluminiumfoilbag1kg,one-wayvalve\",\"qty\":9852,\"unit_price\":10.0,\"amount\":98520.0},{\"description\":\"Tin tie closure strip,kraft\",\"qty\":36765,\"unit_price\":1.5,\"amount\":55147.5}],\"subtotal\":153667.5,\"gst_rate\":18,\"gst_amount\":27660.15,\"total\":181328.0,\"currency\":\"INR\"}",
+ "replies": [
+  {
+   "content": "{\"supplier_name\":\"SundaramFlexipack Industries Pvt Ltd\",\"supplier_gstin\":\"33AAECS5126H1ZK\",\"invoice_number\":\"SFI-00394\",\"invoice_date\":\"2026-08-11\",\"due_date\":\"2026-09-10\",\"line_items\":[{\"description\":\"Aluminiumfoilbag1kg,one-wayvalve\",\"qty\":9852,\"unit_price\":10.0,\"amount\":98520.0},{\"description\":\"Tin tie closure strip,kraft\",\"qty\":36765,\"unit_price\":1.5,\"amount\":55147.5}],\"subtotal\":153667.5,\"gst_rate\":18,\"gst_amount\":27660.15,\"total\":181328.0,\"currency\":\"INR\"}",
+   "prompt_tokens": 1097,
+   "completion_tokens": 195,
+   "latency_ms": 7921,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "inv_012",
+  "type": "invoice",
+  "layout": 2,
+  "source": "pdf",
+  "file": "inv_012.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Sundaram Flexipack Industries Pvt Ltd",
+    "supplier_gstin": "33AAECS5126H1ZK",
+    "invoice_number": "SFI-00394",
+    "invoice_date": "2026-09-06",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Tin tie closure strip, kraft",
+        "qty": 44572.0,
+        "unit_price": 1.0,
+        "amount": 44572.0
+      },
+      {
+        "description": "Aluminium foil bag 1 kg, one-way valve",
+        "qty": 18086.0,
+        "unit_price": 12.0,
+        "amount": 217032.0
+      },
+      {
+        "description": "Printed laminate roll stock 300 mm",
+        "qty": 271.5,
+        "unit_price": 258.25,
+        "amount": 70114.88
+      },
+      {
+        "description": "Stand-up pouch 250 g, kraft, zip lock, valve",
+        "qty": 36261.0,
+        "unit_price": 9.5,
+        "amount": 344479.5
+      }
+    ],
+    "subtotal": 676198.38,
+    "gst_rate": 18.0,
+    "gst_amount": 121715.71,
+    "total": 797914.0,
+    "currency": "INR"
+  }
+}

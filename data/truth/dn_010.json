@@ -1,0 +1,25 @@
+{
+  "id": "dn_010",
+  "type": "delivery_note",
+  "layout": 2,
+  "source": "pdf",
+  "file": "dn_010.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "BlueKite Logistics India Pvt Ltd",
+    "courier_gstin": "29AAHCB5304J1ZM",
+    "awb_number": "255313765977",
+    "ship_date": "2026-08-20",
+    "delivery_date": "2026-08-25",
+    "origin": "Hyderabad",
+    "destination": "Hyderabad",
+    "consignor": "Pearl City Kitchenware Pvt Ltd",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 12,
+    "weight_kg": 167.1,
+    "reference_number": "PCK/0659",
+    "received_by": "R. Venkatesh"
+  }
+}

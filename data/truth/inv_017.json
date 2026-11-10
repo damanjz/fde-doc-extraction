@@ -1,0 +1,47 @@
+{
+  "id": "inv_017",
+  "type": "invoice",
+  "layout": 2,
+  "source": "pdf",
+  "file": "inv_017.pdf",
+  "planted": [
+    "total_off"
+  ],
+  "expected_flags": [
+    {
+      "field": "total",
+      "reason": "total_mismatch",
+      "related": [
+        "subtotal",
+        "gst_amount"
+      ]
+    }
+  ],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Deccan Kraft & Labels Pvt Ltd",
+    "supplier_gstin": "36AAFCD9065R1ZT",
+    "invoice_number": "DKL-00592",
+    "invoice_date": "2026-10-18",
+    "due_date": "2026-11-17",
+    "line_items": [
+      {
+        "description": "Adhesive label roll 100x50 mm, 1000 per roll",
+        "qty": 120.0,
+        "unit_price": 254.0,
+        "amount": 30480.0
+      },
+      {
+        "description": "Kraft mailer box, 10x8x3 in",
+        "qty": 2620.0,
+        "unit_price": 28.0,
+        "amount": 73360.0
+      }
+    ],
+    "subtotal": 103840.0,
+    "gst_rate": 18.0,
+    "gst_amount": 18691.2,
+    "total": 125183.2,
+    "currency": "INR"
+  }
+}

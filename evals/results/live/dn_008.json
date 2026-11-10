@@ -1,0 +1,43 @@
+{
+ "id": "dn_008",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "BlueKite Logistics India Pvt Ltd",
+  "courier_gstin": "29AAHCB5304J1ZM",
+  "awb_number": "720278368644",
+  "ship_date": "2026-09-18",
+  "delivery_date": "2026-09-23",
+  "origin": "Coimbatore",
+  "destination": "Hyderabad",
+  "consignor": "Blue Ridge Beans Trading Co",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 6,
+  "weight_kg": 177.17,
+  "reference_number": "INV202600727",
+  "received_by": "Mohammed Irfan"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 9,
+  "llm_ms": 6230,
+  "llm_first_ms": 6230,
+  "check_ms": 4,
+  "total_ms": 6244,
+  "prompt_tokens": 729,
+  "completion_tokens": 147
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"720278368644\",\"ship_date\":\"2026-09-18\",\"delivery_date\":\"2026-09-23\",\"origin\":\"Coimbatore\",\"destination\":\"Hyderabad\",\"consignor\":\"Blue Ridge Beans Trading Co\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":6,\"weight_kg\":177.17,\"reference_number\":\"INV202600727\",\"received_by\":\"Mohammed Irfan\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"BlueKite Logistics India Pvt Ltd\",\"courier_gstin\":\"29AAHCB5304J1ZM\",\"awb_number\":\"720278368644\",\"ship_date\":\"2026-09-18\",\"delivery_date\":\"2026-09-23\",\"origin\":\"Coimbatore\",\"destination\":\"Hyderabad\",\"consignor\":\"Blue Ridge Beans Trading Co\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":6,\"weight_kg\":177.17,\"reference_number\":\"INV202600727\",\"received_by\":\"Mohammed Irfan\"}",
+   "prompt_tokens": 729,
+   "completion_tokens": 147,
+   "latency_ms": 6230,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

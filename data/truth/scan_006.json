@@ -1,0 +1,36 @@
+{
+  "id": "scan_006",
+  "type": "invoice",
+  "layout": 1,
+  "source": "scan",
+  "file": "scan_006.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "supplier_name": "Wayanad Mist Plantations LLP",
+    "supplier_gstin": "32AAKFW7742D1Z4",
+    "invoice_number": "WMP/26-27/0858",
+    "invoice_date": "2026-11-01",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Robusta Cherry AA, green bean",
+        "qty": 1234.75,
+        "unit_price": 328.0,
+        "amount": 404998.0
+      },
+      {
+        "description": "Robusta Parchment AB, green bean",
+        "qty": 227.0,
+        "unit_price": 353.0,
+        "amount": 80131.0
+      }
+    ],
+    "subtotal": 485129.0,
+    "gst_rate": 5.0,
+    "gst_amount": 24256.45,
+    "total": 509385.0,
+    "currency": "INR"
+  }
+}

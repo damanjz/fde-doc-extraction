@@ -1,0 +1,43 @@
+{
+ "id": "dn_007",
+ "failed": false,
+ "error": null,
+ "record": {
+  "courier_name": "Swiftline Express Couriers Pvt Ltd",
+  "courier_gstin": "36AAGCS8827N1ZL",
+  "awb_number": "SLX216003025",
+  "ship_date": "2026-09-13",
+  "delivery_date": "2026-09-15",
+  "origin": "Chikmagalur",
+  "destination": "Hyderabad",
+  "consignor": "Kaveri Ridge Estates Pvt Ltd",
+  "consignee": "Larkfield Coffee Co.",
+  "packages": 8,
+  "weight_kg": 536.36,
+  "reference_number": "KRE/26-27/0733",
+  "received_by": "Mohammed Irfan"
+ },
+ "low": {},
+ "warnings": [],
+ "doc_type": "delivery_note",
+ "timings": {
+  "text_ms": 7,
+  "llm_ms": 6445,
+  "llm_first_ms": 6445,
+  "check_ms": 3,
+  "total_ms": 6456,
+  "prompt_tokens": 757,
+  "completion_tokens": 151
+ },
+ "repaired": false,
+ "raw_reply": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1ZL\",\"awb_number\":\"SLX216003025\",\"ship_date\":\"2026-09-13\",\"delivery_date\":\"2026-09-15\",\"origin\":\"Chikmagalur\",\"destination\":\"Hyderabad\",\"consignor\":\"Kaveri Ridge Estates Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":8,\"weight_kg\":536.36,\"reference_number\":\"KRE/26-27/0733\",\"received_by\":\"Mohammed Irfan\"}",
+ "replies": [
+  {
+   "content": "{\"courier_name\":\"Swiftline Express Couriers Pvt Ltd\",\"courier_gstin\":\"36AAGCS8827N1ZL\",\"awb_number\":\"SLX216003025\",\"ship_date\":\"2026-09-13\",\"delivery_date\":\"2026-09-15\",\"origin\":\"Chikmagalur\",\"destination\":\"Hyderabad\",\"consignor\":\"Kaveri Ridge Estates Pvt Ltd\",\"consignee\":\"Larkfield Coffee Co.\",\"packages\":8,\"weight_kg\":536.36,\"reference_number\":\"KRE/26-27/0733\",\"received_by\":\"Mohammed Irfan\"}",
+   "prompt_tokens": 757,
+   "completion_tokens": 151,
+   "latency_ms": 6445,
+   "model": "fusion27b:iq3"
+  }
+ ]
+}

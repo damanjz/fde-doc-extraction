@@ -1,0 +1,25 @@
+{
+  "id": "dn_004",
+  "type": "delivery_note",
+  "layout": 2,
+  "source": "pdf",
+  "file": "dn_004.pdf",
+  "planted": [],
+  "expected_flags": [],
+  "expected_warnings": [],
+  "fields": {
+    "courier_name": "BlueKite Logistics India Pvt Ltd",
+    "courier_gstin": "29AAHCB5304J1ZM",
+    "awb_number": "804602793093",
+    "ship_date": "2026-09-07",
+    "delivery_date": "2026-09-11",
+    "origin": "Chennai",
+    "destination": "Hyderabad",
+    "consignor": "Sundaram Flexipack Industries Pvt Ltd",
+    "consignee": "Larkfield Coffee Co.",
+    "packages": 5,
+    "weight_kg": 346.3,
+    "reference_number": "SFI-00394",
+    "received_by": "G. Padmavathi"
+  }
+}

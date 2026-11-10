@@ -1,0 +1,22 @@
+# secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# runtime data of the app (local database, uploaded files)
+app.db
+app.db-*
+uploads/
+
+# eval: the per-document JSON results are kept (they trace the README numbers); the scratch databases and the
+# mock run are regenerable
+evals/results/*/eval.db*
+evals/results/mock/
+CLAUDE.md
+.claude/
